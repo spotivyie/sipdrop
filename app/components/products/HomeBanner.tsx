@@ -10,7 +10,7 @@ const HomeBanner = ({ name }: BannerProps) => {
   const data = bannerData.find((item) => item.name === name);
   if (!data) return null;
 
-  const hasGradient = Boolean(data.gradientClass);
+  const hasGradient = "gradientClass" in data && Boolean(data.gradientClass);
 
   return (
     <div className="relative w-full mb-8 min-h-[350px] overflow-hidden">
@@ -22,7 +22,7 @@ const HomeBanner = ({ name }: BannerProps) => {
       ) : (
         <Image
           src={data.imageSrc}
-          alt={data.title}
+          alt={data.title ?? data.name}
           fill
           className="object-cover z-0"
           priority
@@ -47,7 +47,7 @@ const HomeBanner = ({ name }: BannerProps) => {
           <div className="w-1/3 relative aspect-video">
             <Image
               src={data.imageSrc}
-              alt={data.title}
+              alt={data.title ?? data.name}
               fill
               className="object-contain"
               priority
