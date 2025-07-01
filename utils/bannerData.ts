@@ -16,12 +16,12 @@ export const bannerData = [
     highlight: "Aproveite agora!",
     imageSrc: "/vodka.png",
   },
-  // {
-  //   name: "gin",
-  //   title: "Promoção de gin",
-  //   subtitle: "Frete grátis para todo o Brasil",
-  //   highlight: "Aproveite agora!",
-  //   imageSrc: "/gin.png",
-  //   gradientClass: "from-red-700 to-rose-500",
-  // },
+  {
+    name: "gin",
+    title: "Promoção de gin",
+    subtitle: "Frete grátis para todo o Brasil",
+    highlight: "Aproveite agora!",
+    imageSrc: "/gin.png",
+    gradientClass: "from-red-700 to-rose-500",
+  },
 ];
