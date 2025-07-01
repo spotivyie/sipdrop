@@ -115,14 +115,17 @@ export async function POST(request: Request) {
 
     } catch (error) {
         console.error('❌ API Error:', error)
-        
-        // Retorna erro detalhado apenas em desenvolvimento
+
         const isDev = process.env.NODE_ENV === 'development'
-        
+
+        const errorMessage = error instanceof Error
+            ? error.message
+            : 'Erro interno do servidor'
+
         return NextResponse.json(
             { 
                 error: 'Internal server error',
-                details: isDev ? error.message : 'Erro interno do servidor'
+                details: isDev ? errorMessage : 'Erro interno do servidor'
             }, 
             { status: 500 }
         )
