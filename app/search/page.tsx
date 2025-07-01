@@ -5,7 +5,7 @@ import Heading from "../components/products/Heading";
 import ProductsCard from "../components/products/ProductCard";
 
 interface SearchPageProps {
-  searchParams: { searchTerm?: string; category?: string };
+    searchParams: { searchTerm?: string; category?: string };
 }
 
 export default async function SearchPage({ searchParams }: SearchPageProps) {

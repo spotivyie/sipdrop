@@ -1,4 +1,3 @@
-import CartProvider from '@/providers/CartProvider'
 import CheckoutClient from './CheckoutClient'
 import Container from '../components/Container'
 import FormWrap from '../components/products/FormWrap'

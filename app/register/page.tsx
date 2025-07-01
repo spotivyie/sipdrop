@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import getCurrentUser from "@/actions/getCurrentUser"
 import Cadastrar from "./Register"
 import Container from "../components/Container"
