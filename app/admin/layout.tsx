@@ -2,6 +2,11 @@
 
 import AdminNav from "../components/admin/AdminNav"
 
+export const metadata = {
+    title: 'Bebidas',
+    description: 'Admin dashboard',
+}
+
 const AdminLayout = ({children} : {children: React.ReactNode}) => {
     return(
         <div>
