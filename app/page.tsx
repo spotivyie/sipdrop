@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import getProducts, { IProductParams } from "@/actions/getProducts";
 import Container from "./components/Container";
 import HomeBanner from "./components/products/HomeBanner";
