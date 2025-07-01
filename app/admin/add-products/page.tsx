@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import NullData from "@/app/components/products/NullData"
 import AddProductForm from "./AddProductForm"
 import getCurrentUser from "@/actions/getCurrentUser"

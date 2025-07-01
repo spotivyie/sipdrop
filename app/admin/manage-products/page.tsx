@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import getProducts from "@/actions/getProducts"
 import ManageProductsClient from "./ManageProductsClient"
 import getCurrentUser from "@/actions/getCurrentUser"

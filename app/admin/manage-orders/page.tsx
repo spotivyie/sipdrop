@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import getCurrentUser from "@/actions/getCurrentUser"
 import NullData from "@/app/components/products/NullData"
 import ManageOrdersClient from "./ManageOrderClient"
