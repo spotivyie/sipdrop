@@ -1,6 +1,3 @@
-export const dynamic = 'force-dynamic';
-export const runtime = 'nodejs'; 
-
 import { NextApiRequest, NextApiResponse } from "next"
 import { buffer } from "micro"
 import Stripe from "stripe"

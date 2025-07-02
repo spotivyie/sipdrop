@@ -1,8 +1,8 @@
 import prisma from "@/libs/prismadb"
 
 export interface IProductParams {
-  category?: string | null
-  searchTerm?: string | null
+    category?: string | null
+    searchTerm?: string | null
 }
 
 export default async function getProducts(params: IProductParams) {

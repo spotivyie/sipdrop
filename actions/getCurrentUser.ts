@@ -1,5 +1,3 @@
-export const dynamic = 'force-dynamic';
-
 import { authOptions } from "@/pages/api/auth/[...nextauth]"
 import { getServerSession } from "next-auth"
 import prisma from "@/libs/prismadb"
