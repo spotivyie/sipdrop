@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import getOrderById from "@/actions/getOrderById"
 import OrderDetails from "./OrderDetails"
 import NullData from "@/app/components/products/NullData"
