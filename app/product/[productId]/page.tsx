@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import getProductById from "@/actions/getProductById"
 import ProductDetails from "./ProductDetails"
 import Container from "@/app/components/Container"
