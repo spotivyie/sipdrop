@@ -1,4 +1,4 @@
-export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
 
 import bcrypt from 'bcrypt'
 import prisma from '@/libs/prismadb'
