@@ -3,6 +3,7 @@ import Container from "../components/Container";
 import NullData from "../components/products/NullData";
 import Heading from "../components/products/Heading";
 import ProductsCard from "../components/products/ProductCard";
+export const dynamic = 'force-dynamic';
 
 interface SearchPageProps {
     searchParams: { searchTerm?: string; category?: string };
