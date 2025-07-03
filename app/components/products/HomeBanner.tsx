@@ -13,7 +13,7 @@ const HomeBanner = ({ name }: BannerProps) => {
   const hasGradient = "gradientClass" in data && Boolean(data.gradientClass);
 
   return (
-    <div className="relative w-full mb-8 min-h-[350px] overflow-hidden">
+    <div className="relative w-screen xl:w-full left-1/2 -translate-x-1/2 mb-8 min-h-[350px] overflow-hidden">
       {/* Fundo - gradiente ou imagem de fundo */}
       {hasGradient ? (
         <div

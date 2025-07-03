@@ -34,7 +34,7 @@ const SearchBar = () =>{
     }
 
     return(
-        <div className="flex items-center border border-orange-400 rounded-md w-80 overflow-hidden">
+        <div className="flex items-center border border-orange-400 rounded-md w-full lg:w-80 overflow-hidden">
             <input 
                 {...register('searchTerm')}
                 autoComplete="off"

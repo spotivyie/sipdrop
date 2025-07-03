@@ -129,7 +129,7 @@ const NavBarClient: React.FC<NavBarClientProps> = ({ currentUser }) => {
                             </div>
                         </div>
 
-                        <div className="w-full flex justify-center mt-6">
+                        <div className="mt-6">
                             <SearchBar />
                         </div>
                     </div>
